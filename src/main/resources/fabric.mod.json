@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "edgerunner",
+  "version": "${version}",
+  "name": "EdgeRunner",
+  "description": "unfix MC-1133",
+  "authors": [
+    "HeyBlack"
+  ],
+  "contact": {
+    "sources": "https://github.com/HeyBlack233"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "mixins": [
+    "EdgeRunner.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "*",
+    "minecraft": ">=1.20-alpha.23.18.a"
+  }
+}
