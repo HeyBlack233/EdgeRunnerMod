@@ -3,12 +3,12 @@
   "id": "edgerunner",
   "version": "${version}",
   "name": "EdgeRunner",
-  "description": "unfix MC-1133",
+  "description": "\"unfixes\" MC-1133",
   "authors": [
     "HeyBlack"
   ],
   "contact": {
-    "sources": "https://github.com/HeyBlack233"
+    "sources": "https://github.com/HeyBlack233/EdgeRunnerMod"
   },
   "license": "MIT",
   "environment": "*",
@@ -17,6 +17,6 @@
   ],
   "depends": {
     "fabricloader": "*",
-    "minecraft": ">=1.20-alpha.23.18.a"
+    "minecraft": ">=1.20"
   }
 }
